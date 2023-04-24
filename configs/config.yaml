@@ -1,0 +1,37 @@
+project_name: FGVC-HERBS
+notes: 'no inverse'
+exp_name: basline
+use_wandb: True
+wandb_entity: poyung
+train_root: ./CUB200-2011/train/
+val_root: ./CUB200-2011/test/
+data_size: 384
+num_workers: 2
+batch_size: 8
+model_name: swin-t
+pretrained: ~
+optimizer: SGD
+max_lr: 0.0005
+wdecay: 0.0003
+max_epochs: 80
+warmup_batchs: 1500
+use_amp: True
+use_fpn: True
+fpn_size: 1536
+use_selection: True
+num_classes: 200
+num_selects: 
+  layer1: 256
+  layer2: 128
+  layer3: 64
+  layer4: 32
+use_combiner: True
+lambda_b0: 1.375
+lambda_b: 0.3
+lambda_s: 0.0
+lambda_n: 5.0
+lambda_c: 1.0
+update_freq: 4
+log_freq: 100
+eval_freq: 10
+temperature: 64
