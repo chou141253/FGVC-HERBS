@@ -1,5 +1,5 @@
 
-# A Novel Plug-in Module for Fine-grained Visual Classification
+# Fine-grained Visual Classification with High-temperature Refinement and Background Suppression
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/fine-grained-visual-classification-with-high-1/fine-grained-image-classification-on-cub-200)](https://paperswithcode.com/sota/fine-grained-image-classification-on-cub-200?p=fine-grained-visual-classification-with-high-1)
 
