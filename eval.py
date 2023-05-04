@@ -16,7 +16,7 @@ def suppression(target: torch.Tensor, threshold: torch.Tensor, temperature: floa
     """
     B = target.size(0)
     target = torch.softmax(target / temperature, dim=-1)
-    target = 1 - target
+    # target = 1 - target
     return target
 
 @torch.no_grad()
