@@ -28,7 +28,7 @@ def build_model(pretrainewd_path: str,
                 use_selection: bool = True,
                 use_combiner: bool = True, 
                 comb_proj_size: int = None):
-    from models.pim_module import PluginMoodel
+    from models.pim_module.pim_module_eval.py import PluginMoodel
 
     model = \
         PluginMoodel(img_size = img_size,
